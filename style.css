@@ -1,0 +1,286 @@
+/* :root {} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+/* Core styles */
+.inline-block {
+    display: flex;
+}
+
+.card {
+    border: none;
+    border-radius: 0%;
+}
+
+.features-section, .blog-section {
+    margin-top: 50px;
+}
+/* /Core styles */
+
+/* Intro styles */
+    /* Nav styles */
+    .intro-section {
+        position: relative;
+        background-image: url(./images/intro.png);
+        background-position: center center;
+        background-size: cover;
+        padding-bottom: 200px;
+    }
+
+    .text-logo {
+        margin-left:-300px;
+        /* margin-right: 100px; */
+    }
+    .nav-link-asosiy {
+        text-decoration: underline;
+    }
+    /* /Nav styles */
+.intro-welcome {
+    margin: 100px 0 0 100px;
+    /* width: 30%; */
+}
+
+.intro-welcome > h1 {
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 500;
+    /* margin-left: 10px; */
+}
+
+.intro-welcome > p {
+    font-size: 25px;
+}
+
+.intro-welcome > button {
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+}
+
+.intro-cards {
+    position: relative;
+    top: 150px;
+}
+
+.intro-cards .card {
+    height: 200px;
+}
+/* /Intro styles */
+/* Counter styles */
+.counter-section {
+    margin-top: 100px;
+}
+
+.counter-section .card {
+    height: 200px;
+}
+/* /Counter styles */
+/* Blog styles */
+.blog-section .card {
+    height: 320px;
+}
+
+.blog-section img {
+    height: 300px;
+}
+/* /Blog styles */
+/* Features styles */
+.features-section > .container {
+    margin-top: 60px;
+}
+/* /Features styles */
+/* Subscription styles */
+.subscription-section {
+    position: relative;
+    margin-top: 100px;
+    /* width: 100%; */
+    height: 70px;
+    background-color: #252B42;
+}
+
+.subscription-section-header {
+    position: absolute;
+    top: -60px;
+    /* width: 90%; */
+    height: 130px;
+    background: #CA2953;
+    /* margin-left: 5%; */
+}
+
+.subscription-section-header-subscribe {
+    /* width: 100%; */
+    height: 70px;
+    background-color: #252B42;
+}
+
+.subscription-section button {
+    border-radius: 3px;
+}
+/* /Subscription styles */
+/* Contacts styles */
+.contacts {
+    /* margin: 50px 0 40px 0; */
+    margin: 50px 100px 40px;
+}
+
+.contacts .card-group {
+    margin-top: 70px;
+}
+
+.contacts img {
+    margin-bottom: 20px;
+}
+
+.contacts button {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contacts-center-btn:hover {
+    background-color: #FFC107;
+}
+
+.contacts-center-btn, .contacts button:hover {
+    color: white;
+}
+
+.contacts-center-btn {
+    border-color: white;
+}
+/* /Contacts styles */
+/* Contact styles */
+.contact {
+    background-color: white;
+}
+/* /Contact styles */
+/* Footer styles */
+footer ul > li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer-title {
+    color:white;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    color:white;
+}
+
+.footer-text > img {
+    margin-right: 10px;
+}
+/* /Footer styles */
+/* Copyright styles */
+.social-links {
+    /* margin-left: 400px; */
+}
+
+.social-links > img {
+    /* margin-left: 15px; */
+}
+/* /Copyright styles */
+
+@media (min-width: 576px) {
+    .social-links {
+        margin-left: 0;
+    }
+
+    .contact button {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .contacts {
+        /* margin-left: 20px; */
+    }
+
+    .subscription-section-header h3 {
+        font-size: 20px;
+    }
+    
+    .subscribe-btn {
+        padding: 3px;
+        font-size: 15px;
+    }
+
+    .blog-section {
+        margin-bottom: 100px;
+    }
+
+    ul.nav > li > a {
+        font-size: 20px;
+    }
+
+    .intro-welcome > h1 {
+        font-size: 20px;
+    }
+
+    .intro-welcome > p {
+        font-size: 15px;
+    }
+
+    .intro-welcome > button {
+        margin-top: 10px;
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    footer .row {        
+        /* margin-left: 100px; */
+    }
+
+    .contact button {
+        margin-top: 5px;
+        padding: 10px;
+    }
+
+    .intro-cards .card {
+        height: 250px;
+    }
+
+    .intro-welcome > h1 {
+        font-size: 30px;
+    }
+
+    .intro-welcome > p {
+        font-size: 20px;
+    }
+
+    .intro-welcome > button {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    .intro-welcome > h1 {
+        font-size: 40px;
+    }
+    
+    .intro-welcome > p {
+        font-size: 25px;
+    }
+
+    .intro-welcome > button {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
